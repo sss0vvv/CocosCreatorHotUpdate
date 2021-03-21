@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets/Script/AppConst.js"],"names":["AppConst","module","exports"],"mappings":";;;;;;AAGA;AACA,IAAIA,QAAQ,GAAG,EAAf;AAKAC,MAAM,CAACC,OAAP,GAAiBF,QAAjB","sourceRoot":"/","sourcesContent":["\n\n\n// let AppConst = require(\"AppConst\")\nlet AppConst = {\n\t\n};\n\n\nmodule.exports = AppConst\n\n\n"]}

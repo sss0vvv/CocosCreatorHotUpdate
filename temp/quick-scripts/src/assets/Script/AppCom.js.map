@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets/Script/AppCom.js"],"names":["cc","Class","Component","properties"],"mappings":";;;;;;AACAA,EAAE,CAACC,KAAH,CAAS;AACL,aAASD,EAAE,CAACE,SADP;AAGLC,EAAAA,UAAU,EAAE;AAHP,CAAT","sourceRoot":"/","sourcesContent":["\ncc.Class({\n    extends: cc.Component,\n\n    properties: {\n\n\n    },\n    \n\n\n}); \n"]}

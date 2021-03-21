@@ -5,7 +5,7 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 132,
+      "x": 117,
       "y": 25,
       "width": 1684,
       "height": 936,
@@ -18,7 +18,7 @@
                 "children": [
                   "assets"
                 ],
-                "height": 588.640625,
+                "height": 591.09375,
                 "type": "panel",
                 "width": 256
               },
@@ -27,12 +27,12 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 254.84375,
+                "height": 254.90625,
                 "type": "panel",
                 "width": 256
               }
             ],
-            "height": 846.5,
+            "height": 849,
             "type": "dock-v",
             "width": 256
           },
@@ -41,7 +41,7 @@
             "children": [
               "inspector"
             ],
-            "height": 846.5,
+            "height": 849,
             "type": "panel",
             "width": 338
           },
@@ -52,7 +52,7 @@
                 "children": [
                   "scene"
                 ],
-                "height": 481.28125,
+                "height": 482.140625,
                 "type": "panel",
                 "width": 1084
               },
@@ -63,12 +63,12 @@
                   "timeline",
                   "game-window"
                 ],
-                "height": 362.21875,
+                "height": 363.859375,
                 "type": "panel",
                 "width": 1084
               }
             ],
-            "height": 846.5,
+            "height": 849,
             "type": "dock-v",
             "width": 1084
           }
@@ -76,17 +76,16 @@
         "type": "dock-h"
       },
       "panels": [
-        "hierarchy",
         "assets",
+        "hierarchy",
+        "inspector",
         "scene",
         "console",
         "timeline",
-        "game-window",
-        "inspector"
+        "game-window"
       ]
     },
-    "worker": {},
-    "window-1616265895213": {}
+    "worker": {}
   },
   "panels": {
     "project-settings": {

@@ -41,7 +41,7 @@ XAMPP
 
 
 
-[辅助工具](http://www.baidu.com)
+[辅助工具](https://github.com/sss0vvv/CocosCreatorHotUpdate/tree/master/tools)
 --------
 需安装 NodeJs
 
