@@ -14,7 +14,7 @@ https://github.com/sss0vvv/CocosCreatorHotUpdate.git
 --------
 未修改引擎源码.
 
-项目调试环境: 
+项目调试环境:  
 macOS Big Sur 11.1
 Cocos creator 2.4.3 
 Xcode 12.3
