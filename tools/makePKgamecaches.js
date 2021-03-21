@@ -1,10 +1,12 @@
 
 
 
-// 修改 remoteRoot copyToPath  hotUrl 为你当前的配置
-
 // 将 /build/jsb-link/remote 下的资源拷贝到 /build/jsb-link/assets/PKgamecaches ,
 // 以便首次启动时将资源复制到可读写路径下
+
+// 修改 remoteRoot copyToPath  hotUrl 为你当前的配置
+// 如果希望指定模块打到包里可手动配置 folders, 比如 folders=["ABLobby"]
+
 
 let CommonFunc = require("./Comm/CommonFunc") 
 const fs = require('fs')
@@ -26,7 +28,7 @@ if(typeof(process)!="undefined"){
     copyToPath = process.argv[4] || copyToPath; 
 }
 
-// 获取remote下所有 asset bundle 名称, 如果希望指定模块打到包里可手动配置 folders, 比如 folders=["ABLobby"]
+// 获取remote下所有 asset bundle 名称
 let folders = []
 CommonFunc.getFolder(remoteRoot,folders )   
 

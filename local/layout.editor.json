@@ -5,7 +5,7 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 117,
+      "x": 81,
       "y": 25,
       "width": 1684,
       "height": 936,
@@ -18,7 +18,7 @@
                 "children": [
                   "assets"
                 ],
-                "height": 591.09375,
+                "height": 617.5,
                 "type": "panel",
                 "width": 256
               },
@@ -27,12 +27,12 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 254.90625,
+                "height": 226,
                 "type": "panel",
                 "width": 256
               }
             ],
-            "height": 849,
+            "height": 846.5,
             "type": "dock-v",
             "width": 256
           },
@@ -41,7 +41,7 @@
             "children": [
               "inspector"
             ],
-            "height": 849,
+            "height": 846.5,
             "type": "panel",
             "width": 338
           },
@@ -52,7 +52,7 @@
                 "children": [
                   "scene"
                 ],
-                "height": 482.140625,
+                "height": 577.5,
                 "type": "panel",
                 "width": 1084
               },
@@ -63,12 +63,12 @@
                   "timeline",
                   "game-window"
                 ],
-                "height": 363.859375,
+                "height": 266,
                 "type": "panel",
                 "width": 1084
               }
             ],
-            "height": 849,
+            "height": 846.5,
             "type": "dock-v",
             "width": 1084
           }
@@ -85,7 +85,8 @@
         "game-window"
       ]
     },
-    "worker": {}
+    "worker": {},
+    "window-1616322626689": {}
   },
   "panels": {
     "project-settings": {

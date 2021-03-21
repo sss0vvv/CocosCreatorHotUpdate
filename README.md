@@ -9,6 +9,10 @@ CocosCreator热更新(AssetBundle),大厅+子游戏
 ---------
 https://github.com/sss0vvv/CocosCreatorHotUpdate.git
 
+文章地址
+---------
+https://blog.csdn.net/zggxjxcgx/article/details/115051741
+
 
 说明
 --------
@@ -125,11 +129,17 @@ _G_moduleMag.execUnpackage(()=>{
 -------
 每个模块中的资源需放在 root 文件夹下
 
+Creator构建界面勾选 MD5 Cache.
+
 需要跑热更新时,初始化 ModuleManager 传入 useHotUpdate(true) .  
 请不要用Creator自带模拟器(资源结构不同)跑热更新,可以使用Xcode模拟器或者安卓真机调试热更新.
 
 修改 [makePKgamecaches.js](https://github.com/sss0vvv/CocosCreatorHotUpdate/blob/master/tools/makePKgamecaches.js) 中的 hotUrl 为你的资源下载地址.
+
 修改 [ModuleConst.js](https://github.com/sss0vvv/CocosCreatorHotUpdate/blob/master/assets/Script/ModuleMag/ModuleConst.js) 中的 hotUrl 为你的资源下载地址.
 
 hotRes上传到资源下载服务器,需保留remote这级目录.
+
+如果希望指定模块随包发布可手动配置 [makePKgamecaches.js](https://github.com/sss0vvv/CocosCreatorHotUpdate/blob/master/tools/makePKgamecaches.js) 中的 folders.
+
 
