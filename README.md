@@ -45,9 +45,9 @@ XAMPP
 --------
 需安装 NodeJs
 
-执行 tools 下的 "构造HotRes_macos.sh" / "构造HotRes_windows.bat",将会在根目录 hotRes 下生成完整的热更新资源以及版本控制文件verconfig.json.
+执行 tools 下的 "构造HotRes_macos.sh" / "构造HotRes_windows.bat",将会在根目录 [hotRes](https://github.com/sss0vvv/CocosCreatorHotUpdate/tree/master/hotRes) 下生成完整的热更新资源以及版本控制文件verconfig.json.
 
-执行 tools 下的 "构造PKgamecaches_macos.sh" / "构造PKgamecaches_windows.bat",将会在/build/jsb-link/assets/
+执行 tools 下的 "构造PKgamecaches_macos.sh" / "构造PKgamecaches_windows.bat",将会在[/build/jsb-link/assets/](https://github.com/sss0vvv/CocosCreatorHotUpdate/tree/master/build/jsb-link/assets)
 生成随包发布的热更模块 PKgamecaches .
 
 
@@ -55,11 +55,11 @@ XAMPP
 快速使用
 --------
 1. 将 Scene/ModuleMagPreFab.prefab 以及 Script/ModuleMag 下资源拷贝到你的工程.
-   修改 ModuleConst.js里的资源下载服务器地址.
+   修改 [ModuleConst.js](https://github.com/sss0vvv/CocosCreatorHotUpdate/blob/master/assets/Script/ModuleMag/ModuleConst.js) 里的资源下载服务器地址.
 
 2. 在 ModuleMagPreFab.prefab 分别绑定 resources 及 Texture 中的资源(参考示例,任意图片即可).
 
-3. 在工程根目录下配置你的版本控制文件 verconfig.json (参考示例).
+3. 在工程根目录下配置你的版本控制文件 [verconfig.json](https://github.com/sss0vvv/CocosCreatorHotUpdate/blob/master/verconfig.json) (参考示例).
 
 4. 在Creator属性检查器,将你的模块配置为 Bundle, 并勾选"配置为远程包", 被依赖的模块请设置更高的 "Bundle优先级".
 
@@ -112,7 +112,9 @@ _G_moduleMag.execUnpackage(()=>{
     
 })
 
+
 // 定时检测更新
+
 // _G_moduleMag.reqLoopVersionInfo()
 
 7.使用Xcode模拟器或者 iOS/Android 真机调试.
@@ -126,8 +128,8 @@ _G_moduleMag.execUnpackage(()=>{
 需要跑热更新时,初始化 ModuleManager 传入 useHotUpdate(true) .  
 请不要用Creator自带模拟器(资源结构不同)跑热更新,可以使用Xcode模拟器或者安卓真机调试热更新.
 
-修改 makePKgamecaches.js 中的 hotUrl 为你的资源下载地址.
-修改 ModuleConst.js 中的 hotUrl 为你的资源下载地址.
+修改 [makePKgamecaches.js](https://github.com/sss0vvv/CocosCreatorHotUpdate/blob/master/tools/makePKgamecaches.js) 中的 hotUrl 为你的资源下载地址.
+修改 [ModuleConst.js](https://github.com/sss0vvv/CocosCreatorHotUpdate/blob/master/assets/Script/ModuleMag/ModuleConst.js) 中的 hotUrl 为你的资源下载地址.
 
 hotRes上传到资源下载服务器,需保留remote这级目录.
 
