@@ -67,14 +67,23 @@ XAMPP
 	将 hotRes 下的内容完整上传到下载服务器.
 
 6. 使用代码
+7. 
 let moduleMagObj    = cc.instantiate(this.ModuleMagPreFab)
+
 moduleMagObj.parent = this.node  
+
 window._G_moduleMag = moduleMagObj.getComponent("ModuleManager")  
+
 _G_moduleMag.initCom({
+
     useHotUpdate : true ,     // 是否启用热更新 
+    
 }) 
+
 //-------------------
+
 // 复制包内模块到可读写路径下,避免首次加载模块时从远程完整拉取
+
 _G_moduleMag.execUnpackage(()=>{
 
     _G_moduleMag.reqVersionInfo(()=>{  // 获取最新版本
