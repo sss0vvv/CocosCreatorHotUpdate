@@ -1,0 +1,104 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": 132,
+      "y": 25,
+      "width": 1684,
+      "height": 936,
+      "layout": {
+        "children": [
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "assets"
+                ],
+                "height": 588.640625,
+                "type": "panel",
+                "width": 256
+              },
+              {
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ],
+                "height": 254.84375,
+                "type": "panel",
+                "width": 256
+              }
+            ],
+            "height": 846.5,
+            "type": "dock-v",
+            "width": 256
+          },
+          {
+            "active": 0,
+            "children": [
+              "inspector"
+            ],
+            "height": 846.5,
+            "type": "panel",
+            "width": 338
+          },
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "scene"
+                ],
+                "height": 481.28125,
+                "type": "panel",
+                "width": 1084
+              },
+              {
+                "active": 0,
+                "children": [
+                  "console",
+                  "timeline",
+                  "game-window"
+                ],
+                "height": 362.21875,
+                "type": "panel",
+                "width": 1084
+              }
+            ],
+            "height": 846.5,
+            "type": "dock-v",
+            "width": 1084
+          }
+        ],
+        "type": "dock-h"
+      },
+      "panels": [
+        "hierarchy",
+        "assets",
+        "scene",
+        "console",
+        "timeline",
+        "game-window",
+        "inspector"
+      ]
+    },
+    "worker": {},
+    "window-1616265895213": {}
+  },
+  "panels": {
+    "project-settings": {
+      "x": 22,
+      "y": 163,
+      "width": 584,
+      "height": 554
+    }
+  },
+  "panelLabelWidth": {
+    "inspector": null,
+    "project-settings": null,
+    "builder": null
+  }
+}

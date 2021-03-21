@@ -1,0 +1,50 @@
+{
+    "paths": {},
+    "uuids": [
+        "2cKE3y84hLdoRBWnHv0UWj",
+        "2dL3kvpAxJu6GJ7RdqJG5J",
+        "41D7kWhyFGY7q4NDlzkazn",
+        "a8Anh32NZGRZegUtSgEj26",
+        "dbR3Ks4xZPPqME7wgFUAV/",
+        "ecpdLyjvZBwrvm+cedCcQy"
+    ],
+    "scenes": {
+        "db://assets/Scene/helloworld.fire": "2dL3kvpAxJu6GJ7RdqJG5J"
+    },
+    "redirect": [
+        "2cKE3y84hLdoRBWnHv0UWj",
+        0,
+        "ecpdLyjvZBwrvm+cedCcQy",
+        1
+    ],
+    "deps": [
+        "resources",
+        "internal"
+    ],
+    "packs": {
+        "0e7353a28": [
+            "2dL3kvpAxJu6GJ7RdqJG5J",
+            "41D7kWhyFGY7q4NDlzkazn"
+        ]
+    },
+    "name": "main",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "0e7353a28",
+            "8b809",
+            "a8Anh32NZGRZegUtSgEj26",
+            "7be92",
+            "dbR3Ks4xZPPqME7wgFUAV/",
+            "e94e9"
+        ],
+        "native": [
+            "a8Anh32NZGRZegUtSgEj26",
+            "cea68"
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "ver": "1.1.2",
+  "uuid": "f2d122f1-dc76-4b2d-8388-332c46ba8acb",
+  "isBundle": true,
+  "bundleName": "ABSubGame2",
+  "priority": "4",
+  "compressionType": {
+    "ios": "merge_all_json",
+    "mac": "merge_all_json"
+  },
+  "optimizeHotUpdate": {
+    "ios": false,
+    "mac": false
+  },
+  "inlineSpriteFrames": {
+    "ios": false,
+    "mac": false
+  },
+  "isRemoteBundle": {
+    "ios": true,
+    "mac": false
+  },
+  "subMetas": {}
+}

@@ -1,0 +1,86 @@
+{
+    "paths": {
+        "c8MKQdxaxBkJMRwy/cOF67": [
+            "root/Scene/SubGame2",
+            "cc.Prefab"
+        ],
+        "caB9mCRXpDA5sskwDi3f7x": [
+            "root/Texture/g2pic3",
+            "cc.SpriteFrame",
+            1
+        ],
+        "efW+mRWaJGtLr+JrBhlXgm": [
+            "root/Texture/g2pic3",
+            "cc.Texture2D"
+        ],
+        "02WtHA4tZCtrUbZP3MhXDW": [
+            "root/Texture/p2/AutoAtlas_game2",
+            "cc.SpriteAtlas"
+        ],
+        "8c9fgehrpCfqtgotpsZGC3": [
+            "root/Texture/p2/g2pic2",
+            "cc.SpriteFrame",
+            1
+        ],
+        "4f5q54JsVK6aFeQ7w0D4+F": [
+            "root/Texture/p2/game2pic",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "uuids": [
+        "02WtHA4tZCtrUbZP3MhXDW",
+        "1b50a0727",
+        "41D7kWhyFGY7q4NDlzkazn",
+        "4f5q54JsVK6aFeQ7w0D4+F",
+        "8c9fgehrpCfqtgotpsZGC3",
+        "c8MKQdxaxBkJMRwy/cOF67",
+        "caB9mCRXpDA5sskwDi3f7x",
+        "ecpdLyjvZBwrvm+cedCcQy",
+        "efW+mRWaJGtLr+JrBhlXgm",
+        "f1mn9MC81IJJ0iDCcMnieu"
+    ],
+    "scenes": {},
+    "redirect": [
+        "41D7kWhyFGY7q4NDlzkazn",
+        0,
+        "ecpdLyjvZBwrvm+cedCcQy",
+        1,
+        "f1mn9MC81IJJ0iDCcMnieu",
+        2
+    ],
+    "deps": [
+        "main",
+        "internal",
+        "ABSubGame1"
+    ],
+    "packs": {
+        "0295c5718": [
+            "02WtHA4tZCtrUbZP3MhXDW",
+            "1b50a0727",
+            "4f5q54JsVK6aFeQ7w0D4+F",
+            "8c9fgehrpCfqtgotpsZGC3",
+            "c8MKQdxaxBkJMRwy/cOF67",
+            "caB9mCRXpDA5sskwDi3f7x",
+            "efW+mRWaJGtLr+JrBhlXgm"
+        ]
+    },
+    "name": "ABSubGame2",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "0295c5718",
+            "663ce"
+        ],
+        "native": [
+            "1b50a0727",
+            "2ed68",
+            "efW+mRWaJGtLr+JrBhlXgm",
+            "d8ae9"
+        ]
+    }
+}

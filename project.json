@@ -1,0 +1,8 @@
+{
+  "engine": "cocos2d-html5",
+  "packages": "packages",
+  "version": "2.4.3",
+  "name": "HotUpdateExample",
+  "id": "51fcf4ea-5332-4445-8eae-a12dfaaae286",
+  "isNew": false
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "game2pic",
+    "texture": "2ed97235-061f-49b0-a7bd-3be1b03b00a0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      161,
+      41
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      161,
+      41
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

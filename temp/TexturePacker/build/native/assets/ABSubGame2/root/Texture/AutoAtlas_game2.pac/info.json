@@ -1,0 +1,116 @@
+{
+  "projectPath": "/Users/svsv/Desktop/HotUpdateExample/HotUpdateExample",
+  "actualPlatform": "ios",
+  "mtimes": {
+    "025ad1c0-e2d6-42b6-b51b-64fdcc8570d6": {
+      "assetMtime": 1616273049685,
+      "metaMtime": 1616273057023
+    },
+    "4fe6ae78-26c5-4ae9-a15e-43bc340f8f85": {
+      "assetMtime": 1616264863047,
+      "metaMtime": 1616264869187
+    },
+    "2ed97235-061f-49b0-a7bd-3be1b03b00a0": {
+      "assetMtime": 1616264863047,
+      "metaMtime": 1616264869187
+    },
+    "8cf5f81e-86ba-427e-ab60-a2da6c6460b7": {
+      "assetMtime": 1616273022893,
+      "metaMtime": 1616273114014
+    },
+    "608d18fe-cee9-4a7e-8500-07de778421c6": {
+      "assetMtime": 1616273022893,
+      "metaMtime": 1616273114014
+    }
+  },
+  "result": {
+    "name": "AutoAtlas_game2",
+    "width": 1024,
+    "height": 1024,
+    "ver": "1.2.1",
+    "uuid": "025ad1c0-e2d6-42b6-b51b-64fdcc8570d6",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": false,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "g2pic2",
+            "uuid": "8cf5f81e-86ba-427e-ab60-a2da6c6460b7",
+            "textureUuid": "608d18fe-cee9-4a7e-8500-07de778421c6",
+            "path": "/Users/svsv/Desktop/HotUpdateExample/HotUpdateExample/temp/trimImages/spritesheet_js_1616273210714_image_1.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 142,
+              "height": 89,
+              "rotatedWidth": 89,
+              "rotatedHeight": 142
+            },
+            "rawWidth": 142,
+            "rawHeight": 89,
+            "width": 148,
+            "height": 95,
+            "originalPath": "/Users/svsv/Desktop/HotUpdateExample/HotUpdateExample/library/imports/60/608d18fe-cee9-4a7e-8500-07de778421c6.png",
+            "x": 0,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 95,
+            "rotatedHeight": 148
+          },
+          {
+            "name": "game2pic",
+            "uuid": "4fe6ae78-26c5-4ae9-a15e-43bc340f8f85",
+            "textureUuid": "2ed97235-061f-49b0-a7bd-3be1b03b00a0",
+            "path": "/Users/svsv/Desktop/HotUpdateExample/HotUpdateExample/temp/trimImages/spritesheet_js_1616273210714_image_0.png",
+            "trim": {
+              "x": 3,
+              "y": 151,
+              "width": 161,
+              "height": 41,
+              "rotatedWidth": 41,
+              "rotatedHeight": 161
+            },
+            "rawWidth": 161,
+            "rawHeight": 41,
+            "width": 167,
+            "height": 47,
+            "originalPath": "/Users/svsv/Desktop/HotUpdateExample/HotUpdateExample/library/imports/2e/2ed97235-061f-49b0-a7bd-3be1b03b00a0.png",
+            "x": 0,
+            "y": 148,
+            "rotated": true,
+            "rotatedWidth": 47,
+            "rotatedHeight": 167
+          }
+        ],
+        "width": 95,
+        "height": 315,
+        "name": "AutoAtlas_game2-1",
+        "imagePath": "/Users/svsv/Desktop/HotUpdateExample/HotUpdateExample/temp/TexturePacker/build/native/assets/ABSubGame2/root/Texture/AutoAtlas_game2.pac/AutoAtlas_game2-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "/Users/svsv/Desktop/HotUpdateExample/HotUpdateExample/temp/TexturePacker/build/native/assets/ABSubGame2/root/Texture/AutoAtlas_game2.pac/compressed/AutoAtlas_game2-1"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

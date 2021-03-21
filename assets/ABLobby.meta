@@ -1,0 +1,24 @@
+{
+  "ver": "1.1.2",
+  "uuid": "ce590f40-30e5-45b9-96ff-1e583241c9fc",
+  "isBundle": true,
+  "bundleName": "ABLobby",
+  "priority": "6",
+  "compressionType": {
+    "ios": "merge_all_json",
+    "mac": "merge_all_json"
+  },
+  "optimizeHotUpdate": {
+    "ios": false,
+    "mac": false
+  },
+  "inlineSpriteFrames": {
+    "ios": false,
+    "mac": false
+  },
+  "isRemoteBundle": {
+    "ios": true,
+    "mac": false
+  },
+  "subMetas": {}
+}

@@ -1,0 +1,148 @@
+{
+  "projectPath": "/Users/svsv/Desktop/HotUpdateExample/HotUpdateExample",
+  "actualPlatform": "ios",
+  "mtimes": {
+    "6557e24b-9bf1-4bf8-a397-9b3993e77677": {
+      "assetMtime": 1616273063558,
+      "metaMtime": 1616273068295
+    },
+    "5ed5d6a3-23d0-465b-91f5-d75938509cdc": {
+      "assetMtime": 1616273082127,
+      "metaMtime": 1616273097723
+    },
+    "7ecf6b9d-6d0e-49b4-851d-bb9bb84f4667": {
+      "assetMtime": 1616273082127,
+      "metaMtime": 1616273097723
+    },
+    "97d6fced-8ad1-4ab1-ad92-8d5663a36018": {
+      "assetMtime": 1616273006318,
+      "metaMtime": 1616273102084
+    },
+    "8c6812a6-96a3-40d5-8c7a-4feab70ff917": {
+      "assetMtime": 1616273006318,
+      "metaMtime": 1616273102084
+    },
+    "f19a7f4c-0bcd-4824-9d22-0c270c9e27ae": {
+      "assetMtime": 1616264841238,
+      "metaMtime": 1616264849017
+    },
+    "7dcc18e7-0e74-4241-8967-8820b22ba5e4": {
+      "assetMtime": 1616264841238,
+      "metaMtime": 1616264849017
+    }
+  },
+  "result": {
+    "name": "AutoAtlas_game1",
+    "width": 1024,
+    "height": 1024,
+    "ver": "1.2.1",
+    "uuid": "6557e24b-9bf1-4bf8-a397-9b3993e77677",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": false,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "g1pic2",
+            "uuid": "5ed5d6a3-23d0-465b-91f5-d75938509cdc",
+            "textureUuid": "7ecf6b9d-6d0e-49b4-851d-bb9bb84f4667",
+            "path": "/Users/svsv/Desktop/HotUpdateExample/HotUpdateExample/temp/trimImages/spritesheet_js_1616275527341_image_0.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 157,
+              "height": 38,
+              "rotatedWidth": 38,
+              "rotatedHeight": 157
+            },
+            "rawWidth": 157,
+            "rawHeight": 38,
+            "width": 163,
+            "height": 44,
+            "originalPath": "/Users/svsv/Desktop/HotUpdateExample/HotUpdateExample/library/imports/7e/7ecf6b9d-6d0e-49b4-851d-bb9bb84f4667.png",
+            "x": 0,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 44,
+            "rotatedHeight": 163
+          },
+          {
+            "name": "game1pic",
+            "uuid": "f19a7f4c-0bcd-4824-9d22-0c270c9e27ae",
+            "textureUuid": "7dcc18e7-0e74-4241-8967-8820b22ba5e4",
+            "path": "/Users/svsv/Desktop/HotUpdateExample/HotUpdateExample/temp/trimImages/spritesheet_js_1616275527345_image_2.png",
+            "trim": {
+              "x": 3,
+              "y": 166,
+              "width": 140,
+              "height": 38,
+              "rotatedWidth": 38,
+              "rotatedHeight": 140
+            },
+            "rawWidth": 140,
+            "rawHeight": 38,
+            "width": 146,
+            "height": 44,
+            "originalPath": "/Users/svsv/Desktop/HotUpdateExample/HotUpdateExample/library/imports/7d/7dcc18e7-0e74-4241-8967-8820b22ba5e4.png",
+            "x": 0,
+            "y": 163,
+            "rotated": true,
+            "rotatedWidth": 44,
+            "rotatedHeight": 146
+          },
+          {
+            "name": "g1pic3",
+            "uuid": "97d6fced-8ad1-4ab1-ad92-8d5663a36018",
+            "textureUuid": "8c6812a6-96a3-40d5-8c7a-4feab70ff917",
+            "path": "/Users/svsv/Desktop/HotUpdateExample/HotUpdateExample/temp/trimImages/spritesheet_js_1616275527343_image_1.png",
+            "trim": {
+              "x": 3,
+              "y": 312,
+              "width": 126,
+              "height": 38,
+              "rotatedWidth": 38,
+              "rotatedHeight": 126
+            },
+            "rawWidth": 126,
+            "rawHeight": 38,
+            "width": 132,
+            "height": 44,
+            "originalPath": "/Users/svsv/Desktop/HotUpdateExample/HotUpdateExample/library/imports/8c/8c6812a6-96a3-40d5-8c7a-4feab70ff917.png",
+            "x": 0,
+            "y": 309,
+            "rotated": true,
+            "rotatedWidth": 44,
+            "rotatedHeight": 132
+          }
+        ],
+        "width": 44,
+        "height": 441,
+        "name": "AutoAtlas_game1-1",
+        "imagePath": "/Users/svsv/Desktop/HotUpdateExample/HotUpdateExample/temp/TexturePacker/build/native/assets/ABSubGame1/root/Texture/p1/AutoAtlas_game1.pac/AutoAtlas_game1-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "/Users/svsv/Desktop/HotUpdateExample/HotUpdateExample/temp/TexturePacker/build/native/assets/ABSubGame1/root/Texture/p1/AutoAtlas_game1.pac/compressed/AutoAtlas_game1-1"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}
