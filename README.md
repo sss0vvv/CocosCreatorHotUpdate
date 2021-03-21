@@ -16,11 +16,17 @@ https://github.com/sss0vvv/CocosCreatorHotUpdate.git
 
 项目调试环境:  
 macOS Big Sur 11.1
+
 Cocos creator 2.4.3 
+
 Xcode 12.3
+
 Android Studio 4.1
+
 NodeJs
+
 XAMPP
+
 
 实现功能:
 1. 热更新基于 Asset Bundle 实现 大厅+子游戏 模式,
@@ -70,19 +76,33 @@ _G_moduleMag.initCom({
 //-------------------
 // 复制包内模块到可读写路径下,避免首次加载模块时从远程完整拉取
 _G_moduleMag.execUnpackage(()=>{
+
     _G_moduleMag.reqVersionInfo(()=>{  // 获取最新版本
+    
         let loadAb = ["ABLobby"]
+	
         // loadAb = ["ABLobby", "ABSubGame1", "ABSubGame2"]
+	
         _G_moduleMag.hotUpdateMultiModule(loadAb,()=>{ // 更新模块到最新版本
+	
             _G_moduleMag.addModule("ABLobby", (moduleObj)=>{ // 加载模块
+	    
                 let abObj = moduleObj.getABObj()
-                abObj.load('root/Scene/LobbyRoot', cc.Prefab, (err, prefab)=>{  // 使用模块资源   
+		
+                abObj.load('root/Scene/LobbyRoot', cc.Prefab, (err, prefab)=>{  // 使用模块资源 
+		
     				//...
+				
                 }) 
+		
             })
+	    
         })
+	
     })
+    
 })
+
 // 定时检测更新
 // _G_moduleMag.reqLoopVersionInfo()
 
