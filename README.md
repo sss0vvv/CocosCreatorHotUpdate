@@ -67,7 +67,7 @@ XAMPP
 	将 hotRes 下的内容完整上传到下载服务器.
 
 6. 使用代码
-7. 
+
 let moduleMagObj    = cc.instantiate(this.ModuleMagPreFab)
 
 moduleMagObj.parent = this.node  
