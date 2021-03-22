@@ -1,0 +1,89 @@
+{
+    "paths": {
+        "6eDnIw0UFCdZQQv4+/eZV1": [
+            "root/Scene/SubGame1",
+            "cc.Prefab"
+        ],
+        "71t8b3y+dO15MDY9MskWeE": [
+            "root/Texture/g1pic4",
+            "cc.Texture2D"
+        ],
+        "aesTFuFaRIeYniW+Nj+Bbl": [
+            "root/Texture/g1pic4",
+            "cc.SpriteFrame",
+            1
+        ],
+        "65V+JLm/FL+KOXmzmT53Z3": [
+            "root/Texture/p1/AutoAtlas_game1",
+            "cc.SpriteAtlas"
+        ],
+        "5e1dajI9BGW5H111k4UJzc": [
+            "root/Texture/p1/g1pic2",
+            "cc.SpriteFrame",
+            1
+        ],
+        "971vztitFKsa2SjVZjo2AY": [
+            "root/Texture/p1/g1pic3",
+            "cc.SpriteFrame",
+            1
+        ],
+        "f1mn9MC81IJJ0iDCcMnieu": [
+            "root/Texture/p1/game1pic",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "uuids": [
+        "1df8af71a",
+        "41D7kWhyFGY7q4NDlzkazn",
+        "5e1dajI9BGW5H111k4UJzc",
+        "65V+JLm/FL+KOXmzmT53Z3",
+        "6eDnIw0UFCdZQQv4+/eZV1",
+        "71t8b3y+dO15MDY9MskWeE",
+        "971vztitFKsa2SjVZjo2AY",
+        "aesTFuFaRIeYniW+Nj+Bbl",
+        "ecpdLyjvZBwrvm+cedCcQy",
+        "f1mn9MC81IJJ0iDCcMnieu"
+    ],
+    "scenes": {},
+    "redirect": [
+        "41D7kWhyFGY7q4NDlzkazn",
+        0,
+        "ecpdLyjvZBwrvm+cedCcQy",
+        1
+    ],
+    "deps": [
+        "main",
+        "internal"
+    ],
+    "packs": {
+        "0c956a75a": [
+            "1df8af71a",
+            "5e1dajI9BGW5H111k4UJzc",
+            "65V+JLm/FL+KOXmzmT53Z3",
+            "6eDnIw0UFCdZQQv4+/eZV1",
+            "71t8b3y+dO15MDY9MskWeE",
+            "971vztitFKsa2SjVZjo2AY",
+            "aesTFuFaRIeYniW+Nj+Bbl",
+            "f1mn9MC81IJJ0iDCcMnieu"
+        ]
+    },
+    "name": "ABSubGame1",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "0c956a75a",
+            "d261f"
+        ],
+        "native": [
+            "1df8af71a",
+            "d6847",
+            "71t8b3y+dO15MDY9MskWeE",
+            "20b85"
+        ]
+    }
+}

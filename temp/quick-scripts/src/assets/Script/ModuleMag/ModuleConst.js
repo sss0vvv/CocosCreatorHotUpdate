@@ -6,7 +6,7 @@ cc._RF.push(module, '49044JecXNDAowkrlJVI34Z', 'ModuleConst');
 
 // let ModuleConst = require("ModuleConst")
 var ModuleConst = {
-  hotUrl: "http://192.168.69.197:8089/dashboard/hotTest/",
+  hotUrl: "http://192.168.50.88:8089/dashboard/hotTest/",
   // 热更新地址, 以斜杠结尾
   localVersionConfigKey: "_local_gameVersionData1",
   localClientVer: "__sv_loacal_client_ver",

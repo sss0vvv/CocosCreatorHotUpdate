@@ -5,8 +5,8 @@
     "relativePath": "Scene"
   },
   "4734c20c-0db8-4eb2-92ea-e692f4d70934": {
-    "asset": 1616283259935,
-    "meta": 1616317457248,
+    "asset": 1616317700399,
+    "meta": 1616395390811,
     "relativePath": "Script"
   },
   "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
@@ -521,7 +521,7 @@
   },
   "954fec8b-cd16-4bb9-a3b7-7719660e7558": {
     "asset": 1601192580000,
-    "meta": 1616317457151,
+    "meta": 1616395390733,
     "relativePath": "model/primitives.fbx"
   },
   "ce590f40-30e5-45b9-96ff-1e583241c9fc": {
@@ -754,19 +754,19 @@
     "meta": 1616305691309,
     "relativePath": "ABLobby/root/Script/LobbyRoot.js"
   },
-  "4904425e-7173-4302-8c24-ae5255237e19": {
-    "asset": 1616313831701,
-    "meta": 1616315881321,
-    "relativePath": "Script/ModuleMag/ModuleConst.js"
-  },
   "b6217ffa-d792-44ad-85f0-7771415c4007": {
     "asset": 1616313827406,
     "meta": 1616315881527,
     "relativePath": "Script/ModuleMag/ModuleManager.js"
   },
+  "4904425e-7173-4302-8c24-ae5255237e19": {
+    "asset": 1616395533340,
+    "meta": 1616395536278,
+    "relativePath": "Script/ModuleMag/ModuleConst.js"
+  },
   "280c3aec-6492-4a9d-9f51-a9b00b570b4a": {
-    "asset": 1616316025031,
-    "meta": 1616316026391,
+    "asset": 1616395905845,
+    "meta": 1616395906892,
     "relativePath": "Script/HelloWorld.js"
   }
 }

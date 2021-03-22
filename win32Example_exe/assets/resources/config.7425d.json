@@ -1,0 +1,39 @@
+{
+    "paths": {
+        "2cKE3y84hLdoRBWnHv0UWj": [
+            "asset1",
+            "cc.Texture2D"
+        ],
+        "81NOyrtOBMMbNNcvxC+A4L": [
+            "asset1",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "uuids": [
+        "2cKE3y84hLdoRBWnHv0UWj",
+        "81NOyrtOBMMbNNcvxC+A4L"
+    ],
+    "scenes": {},
+    "redirect": [],
+    "deps": [],
+    "packs": null,
+    "name": "resources",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "2cKE3y84hLdoRBWnHv0UWj",
+            "7be92",
+            "81NOyrtOBMMbNNcvxC+A4L",
+            "3f93b"
+        ],
+        "native": [
+            "2cKE3y84hLdoRBWnHv0UWj",
+            "cea68"
+        ]
+    }
+}

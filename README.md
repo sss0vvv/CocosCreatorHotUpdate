@@ -9,7 +9,7 @@ CocosCreator热更新(AssetBundle),大厅+子游戏
 ---------
 https://github.com/sss0vvv/CocosCreatorHotUpdate.git
 
-文章地址
+链接地址
 ---------
 https://blog.csdn.net/zggxjxcgx/article/details/115051741
 
@@ -122,6 +122,12 @@ _G_moduleMag.execUnpackage(()=>{
 // _G_moduleMag.reqLoopVersionInfo()
 
 7.使用Xcode模拟器或者 iOS/Android 真机调试.
+
+8.windows下测试
+
+将 /build/jsb-link/assets/ 下的src, assets, main.js三个文件覆盖到win32Example_exe文件夹, 
+
+执行 hot_example.exe启动游戏, 单击键盘TAB键保存Log日志到可读写路径下 alogRecord.txt .
 
 
 

@@ -1,12 +1,15 @@
 
 
 set curDir=%cd%
+cd ..
+set proRoot=%cd%
+cd %curDir%
 
-set currPath=%~dp0
+echo pro_Root_%proRoot%
 
-
-
-node %curDir%\makeHotRes.js /Users/svsv/Desktop/HotUpdateExample/HotUpdateExample/build/jsb-link /Users/svsv/Desktop/HotUpdateExample/HotUpdateExample/verconfig.json /Users/svsv/Desktop/HotUpdateExample/HotUpdateExample/hotRes
+node %curDir%/makeHotRes.js %proRoot%/build/jsb-link %proRoot%/verconfig.json %proRoot%/hotRes
 
 
 pause
+
+::set currPath=%~dp0

@@ -3,7 +3,8 @@
 
 macOS下可直接使用 .sh 
 
-windows下请先修改 .bat 中的路径
+windows下可直接使用 .bat 
+
 
 注意事项:
 修改 makePKgamecaches.js 中的 hotUrl 为你的资源下载地址.

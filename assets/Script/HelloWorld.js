@@ -19,8 +19,13 @@ cc.Class({
 
     },
 
+    onDestroy () { 
+        cc.systemEvent.off(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
+    },
     onLoad: function () {  
 
+        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
+        this.hackSysLog()
         JS_LOG("jsb_writable_:", jsb.fileUtils.getWritablePath() )
 
         window._G_AppCom = this._AppCom = this.getComponent("AppCom")
@@ -32,7 +37,7 @@ cc.Class({
         moduleMagObj.parent = this.msgLayer  
         window._G_moduleMag = moduleMagObj.getComponent("ModuleManager")  
         _G_moduleMag.initCom({
-            // useHotUpdate : true ,     // 是否启用热更新 
+            useHotUpdate : true ,     // 是否启用热更新 
         }) 
         
         //-------------------
@@ -75,5 +80,85 @@ cc.Class({
             })
         })
     },
+
+
+
+    onKeyUp(event) { 
+        // 9 -- TAB  
+        if(cc.sys.os==cc.sys.OS_WINDOWS && event.keyCode==9){
+            this.hackSys_Log_Save()
+        } 
+    },
+    hackSys_Log_Save(){
+        if(!this._logArr){ return ; };
+
+        let totalLen = this._logArr.length
+        let reportCo = 2000
+        let beginIdx = totalLen-reportCo
+        beginIdx = beginIdx>=0?beginIdx:0
+        let arrTemp = []
+
+        for(let i=beginIdx; i<totalLen; i++){
+            arrTemp.push(this._logArr[i])
+        }
+
+        let retMsg = arrTemp.join("\n")
+        if(typeof jsb!="undefined"){
+            let path = ""
+            // path = jsb.fileUtils.getDefaultResourceRootPath()
+            // if(!path){
+                path = jsb.fileUtils.getWritablePath()
+            // }
+
+            jsb.fileUtils.writeStringToFile(retMsg, path + "alogRecord.txt")
+        }
+    },
+    hackSysLog(){
+
+        if(this._initHackLog){ return ; } ; this._initHackLog = true ; 
+        let _logArr = []
+        this._logArr = _logArr 
+        let MAX_STR_LEN = 1300 
+        let excludeStr = { ["Can't find letter definition in texture"]:1 } 
+        let push_log = function(...arg){  
+            let ignore = false
+            let logStr = arg.join(" ")
+            let strLen = logStr.length
+            for(let idx = 0;idx<strLen;){
+                let endIdx = idx+MAX_STR_LEN
+
+                let splitStr = logStr.slice(idx, endIdx)
+                for(let excStr in  excludeStr){
+                    if( splitStr.indexOf(excStr, 0) == 0 ){
+                        ignore = true 
+                        break 
+                    }
+                }
+                if( !ignore ){
+                    _logArr.push("_"+_logArr.length+"_=> "+ splitStr +(endIdx<strLen?"-->":"")) 
+                } 
+
+                idx = endIdx
+            } 
+            return ignore
+        } 
+        let logDef = function(...arg){ 
+            let ignore = push_log(...arg)
+            if(!ignore){
+                cc._sv_log_2_Ori.call(cc, ...arg)
+            }
+        }
+        let consoleLogDef = function(...arg){ 
+            let ignore = push_log(...arg) 
+            if(!ignore){
+                if(cc._sv_console_2_logOri) { cc._sv_console_2_logOri.call(console,...arg ) }
+            } 
+        }
+        if(!cc._sv_log_2_Ori){ cc._sv_log_2_Ori = cc.log  }
+        if(!cc._sv_console_2_logOri){ cc._sv_console_2_logOri = console.log  }
+        cc.log      = logDef
+        console.log = consoleLogDef
+    },
+
 
 });
