@@ -112,11 +112,10 @@ cc.Class({
     var retMsg = arrTemp.join("\n");
 
     if (typeof jsb != "undefined") {
-      var path = jsb.fileUtils.getDefaultResourceRootPath();
+      var path = ""; // path = jsb.fileUtils.getDefaultResourceRootPath()
+      // if(!path){
 
-      if (!path) {
-        path = jsb.fileUtils.getWritablePath();
-      }
+      path = jsb.fileUtils.getWritablePath(); // }
 
       jsb.fileUtils.writeStringToFile(retMsg, path + "alogRecord.txt");
     }

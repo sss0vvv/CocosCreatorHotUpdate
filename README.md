@@ -2,7 +2,7 @@
 
 
 
-CocosCreator热更新(AssetBundle),大厅+子游戏
+CocosCreator 2.4.3热更新实现方案(AssetBundle),大厅+子游戏模式快速实现
 ========
 
 仓库地址

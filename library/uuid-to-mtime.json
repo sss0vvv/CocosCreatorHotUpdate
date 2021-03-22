@@ -519,11 +519,6 @@
     "meta": 1616239835008,
     "relativePath": "resources/materials/builtin-unlit.mtl"
   },
-  "954fec8b-cd16-4bb9-a3b7-7719660e7558": {
-    "asset": 1601192580000,
-    "meta": 1616395390733,
-    "relativePath": "model/primitives.fbx"
-  },
   "ce590f40-30e5-45b9-96ff-1e583241c9fc": {
     "asset": 1616240324698,
     "meta": 1616266598429,
@@ -765,8 +760,13 @@
     "relativePath": "Script/ModuleMag/ModuleConst.js"
   },
   "280c3aec-6492-4a9d-9f51-a9b00b570b4a": {
-    "asset": 1616395905845,
-    "meta": 1616395906892,
+    "asset": 1616397312632,
+    "meta": 1616397803735,
     "relativePath": "Script/HelloWorld.js"
+  },
+  "954fec8b-cd16-4bb9-a3b7-7719660e7558": {
+    "asset": 1601192580000,
+    "meta": 1616397803838,
+    "relativePath": "model/primitives.fbx"
   }
 }
